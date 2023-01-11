@@ -1,0 +1,99 @@
+    @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap');
+    body {
+        /* background-image: url(https/media.tenor.com/k1NtB-z6joYAAAAd/lil-mabu.gif); */
+        background: #161616;
+    }
+    
+    h1 {
+        font-family: 'Inconsolata', monospace;
+        color: rgb(0, 255, 0);
+    }
+    
+    a {
+        text-decoration: none;
+        color: rgb(8, 131, 8);
+    }
+    
+    p {
+        font-size: small;
+        text-align: center;
+        color: #ffff;
+    }
+    
+    button {
+        margin-top: 20px;
+        padding: 5px;
+        width: 10%;
+        background: #161616;
+        border: 1px rgba(255, 0, 0, 0.229) solid;
+        color: #ffff;
+    }
+    
+    a:hover {
+        color: rgb(249, 0, 0);
+    }
+    
+    .banner-gif {
+        width: 90%;
+        margin-left: 5%;
+        border-radius: 1%;
+        background: #000000;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .gif-banner {
+        background-position: center;
+    }
+    
+    .foto-usu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .imagem-usu {
+        border: 2px rgb(255, 255, 255) solid;
+        margin-top: -60px;
+        width: 198px;
+        height: 180px;
+        background-position: center;
+        border-radius: 6px;
+    }
+    
+    .texto-p,
+    .local {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        font-family: 'Source Sans Pro';
+    }
+    
+    .redes-socias,
+    .shield-linguagens {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        padding-top: 10px;
+    }
+    
+    .icone {
+        margin: 6px;
+        width: 24px;
+        height: 24px;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .load {
+        visibility: hidden;
+    }
+    
+    .loadON {
+        position: fixed;
+        background: #161616;
+    }
